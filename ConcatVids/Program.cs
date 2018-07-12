@@ -34,7 +34,7 @@ namespace ConcatVids
                 ProcessOptionalArgs(args[0], args[1]);
 
             if (args.Length == 4)
-                ProcessOptionalArgs(args[1], args[2]);
+                ProcessOptionalArgs(args[2], args[3]);
 
             if (args.Length > 4)
                 Console.WriteLine("Only the first 4 args were parsed, all else was ignored.");
