@@ -182,7 +182,7 @@ namespace ConcatVids
             sbUsage.Append(Environment.NewLine);
             sbUsage.Append(" Optional Parameters:" + Environment.NewLine);
             sbUsage.Append("   -vpath PATH    set path to the source video files; will be current directory when not specified" + Environment.NewLine);
-            sbUsage.Append("   -ofn STRING    sets name for the output file. If not specified, it will take the name of the current directory, e.g.: dirName.mp4" + Environment.NewLine);
+            sbUsage.Append("   -ofn STRING    set name for the output file. If not specified, it will take the name of the current directory, e.g.: dirName.mp4" + Environment.NewLine);
             sbUsage.Append(Environment.NewLine);
             sbUsage.Append(" NOTE: all of the source videos must be of the same type: resolution, frame rate, time rate, etc." + Environment.NewLine);
             sbUsage.Append(" This program uses the ffmpeg concat feature and copies existing video/audio codecs, requiring this similarity between all clips." + Environment.NewLine);
